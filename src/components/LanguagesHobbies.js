@@ -1,3 +1,4 @@
+// LanguagesHobbies.js
 import React from 'react';
 
 function LanguagesHobbies() {
@@ -13,7 +14,7 @@ function LanguagesHobbies() {
       <h2 style={{ textAlign: 'center', color: '#f6d365' }}>Languages & Hobbies</h2>
       <div style={{
         display: 'flex',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
         flexWrap: 'wrap',
         gap: '1rem'
       }}>
@@ -22,7 +23,8 @@ function LanguagesHobbies() {
           borderRadius: '12px',
           padding: '1rem',
           color: '#eee',
-          width: '40%'
+          flex: '1 1 45%',
+          minWidth: '250px'
         }}>
           <h3>Languages</h3>
           <ul>
@@ -37,7 +39,8 @@ function LanguagesHobbies() {
           borderRadius: '12px',
           padding: '1rem',
           color: '#eee',
-          width: '40%'
+          flex: '1 1 45%',
+          minWidth: '250px'
         }}>
           <h3>Hobbies</h3>
           <ul>
